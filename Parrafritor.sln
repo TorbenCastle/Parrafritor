@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Parrafritor", "Parrafritor.pyproj", "{8ACC552C-4D3B-4A30-9015-49BED2E9CE3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ACC552C-4D3B-4A30-9015-49BED2E9CE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACC552C-4D3B-4A30-9015-49BED2E9CE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C08D22-B23F-433F-AB39-CF74BE7C6C44}
+	EndGlobalSection
+EndGlobal

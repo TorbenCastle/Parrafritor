@@ -1,0 +1,235 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8acc552c-4d3b-4a30-9015-49bed2e9ce3d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Parrafritor.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Parrafritor</Name>
+    <RootNamespace>Parrafritor</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="klipperCode\klippy\chelper\__init__.py" />
+    <Compile Include="klipperCode\klippy\clocksync.py" />
+    <Compile Include="klipperCode\klippy\configfile.py" />
+    <Compile Include="klipperCode\klippy\console.py" />
+    <Compile Include="klipperCode\klippy\extras\ad5206.py" />
+    <Compile Include="klipperCode\klippy\extras\adc_scaled.py" />
+    <Compile Include="klipperCode\klippy\extras\adc_temperature.py" />
+    <Compile Include="klipperCode\klippy\extras\adxl345.py" />
+    <Compile Include="klipperCode\klippy\extras\aht10.py" />
+    <Compile Include="klipperCode\klippy\extras\angle.py" />
+    <Compile Include="klipperCode\klippy\extras\axis_twist_compensation.py" />
+    <Compile Include="klipperCode\klippy\extras\bed_mesh.py" />
+    <Compile Include="klipperCode\klippy\extras\bed_screws.py" />
+    <Compile Include="klipperCode\klippy\extras\bed_tilt.py" />
+    <Compile Include="klipperCode\klippy\extras\bltouch.py" />
+    <Compile Include="klipperCode\klippy\extras\bme280.py" />
+    <Compile Include="klipperCode\klippy\extras\board_pins.py" />
+    <Compile Include="klipperCode\klippy\extras\bus.py" />
+    <Compile Include="klipperCode\klippy\extras\buttons.py" />
+    <Compile Include="klipperCode\klippy\extras\canbus_ids.py" />
+    <Compile Include="klipperCode\klippy\extras\controller_fan.py" />
+    <Compile Include="klipperCode\klippy\extras\dac084S085.py" />
+    <Compile Include="klipperCode\klippy\extras\delayed_gcode.py" />
+    <Compile Include="klipperCode\klippy\extras\delta_calibrate.py" />
+    <Compile Include="klipperCode\klippy\extras\display\display.py" />
+    <Compile Include="klipperCode\klippy\extras\display\font8x14.py" />
+    <Compile Include="klipperCode\klippy\extras\display\hd44780.py" />
+    <Compile Include="klipperCode\klippy\extras\display\hd44780_spi.py" />
+    <Compile Include="klipperCode\klippy\extras\display\menu.py" />
+    <Compile Include="klipperCode\klippy\extras\display\menu_keys.py" />
+    <Compile Include="klipperCode\klippy\extras\display\st7920.py" />
+    <Compile Include="klipperCode\klippy\extras\display\uc1701.py" />
+    <Compile Include="klipperCode\klippy\extras\display\__init__.py" />
+    <Compile Include="klipperCode\klippy\extras\display_status.py" />
+    <Compile Include="klipperCode\klippy\extras\dotstar.py" />
+    <Compile Include="klipperCode\klippy\extras\ds18b20.py" />
+    <Compile Include="klipperCode\klippy\extras\duplicate_pin_override.py" />
+    <Compile Include="klipperCode\klippy\extras\endstop_phase.py" />
+    <Compile Include="klipperCode\klippy\extras\exclude_object.py" />
+    <Compile Include="klipperCode\klippy\extras\extruder_stepper.py" />
+    <Compile Include="klipperCode\klippy\extras\fan.py" />
+    <Compile Include="klipperCode\klippy\extras\fan_generic.py" />
+    <Compile Include="klipperCode\klippy\extras\filament_motion_sensor.py" />
+    <Compile Include="klipperCode\klippy\extras\filament_switch_sensor.py" />
+    <Compile Include="klipperCode\klippy\extras\firmware_retraction.py" />
+    <Compile Include="klipperCode\klippy\extras\force_move.py" />
+    <Compile Include="klipperCode\klippy\extras\gcode_arcs.py" />
+    <Compile Include="klipperCode\klippy\extras\gcode_button.py" />
+    <Compile Include="klipperCode\klippy\extras\gcode_macro.py" />
+    <Compile Include="klipperCode\klippy\extras\gcode_move.py" />
+    <Compile Include="klipperCode\klippy\extras\hall_filament_width_sensor.py" />
+    <Compile Include="klipperCode\klippy\extras\heaters.py" />
+    <Compile Include="klipperCode\klippy\extras\heater_bed.py" />
+    <Compile Include="klipperCode\klippy\extras\heater_fan.py" />
+    <Compile Include="klipperCode\klippy\extras\heater_generic.py" />
+    <Compile Include="klipperCode\klippy\extras\homing.py" />
+    <Compile Include="klipperCode\klippy\extras\homing_heaters.py" />
+    <Compile Include="klipperCode\klippy\extras\homing_override.py" />
+    <Compile Include="klipperCode\klippy\extras\htu21d.py" />
+    <Compile Include="klipperCode\klippy\extras\idle_timeout.py" />
+    <Compile Include="klipperCode\klippy\extras\input_shaper.py" />
+    <Compile Include="klipperCode\klippy\extras\led.py" />
+    <Compile Include="klipperCode\klippy\extras\lis2dw.py" />
+    <Compile Include="klipperCode\klippy\extras\lm75.py" />
+    <Compile Include="klipperCode\klippy\extras\manual_probe.py" />
+    <Compile Include="klipperCode\klippy\extras\manual_stepper.py" />
+    <Compile Include="klipperCode\klippy\extras\mcp4018.py" />
+    <Compile Include="klipperCode\klippy\extras\mcp4451.py" />
+    <Compile Include="klipperCode\klippy\extras\mcp4728.py" />
+    <Compile Include="klipperCode\klippy\extras\motion_report.py" />
+    <Compile Include="klipperCode\klippy\extras\mpu9250.py" />
+    <Compile Include="klipperCode\klippy\extras\multi_pin.py" />
+    <Compile Include="klipperCode\klippy\extras\neopixel.py" />
+    <Compile Include="klipperCode\klippy\extras\output_pin.py" />
+    <Compile Include="klipperCode\klippy\extras\palette2.py" />
+    <Compile Include="klipperCode\klippy\extras\pause_resume.py" />
+    <Compile Include="klipperCode\klippy\extras\pca9533.py" />
+    <Compile Include="klipperCode\klippy\extras\pca9632.py" />
+    <Compile Include="klipperCode\klippy\extras\pid_calibrate.py" />
+    <Compile Include="klipperCode\klippy\extras\print_stats.py" />
+    <Compile Include="klipperCode\klippy\extras\probe.py" />
+    <Compile Include="klipperCode\klippy\extras\pulse_counter.py" />
+    <Compile Include="klipperCode\klippy\extras\pwm_tool.py" />
+    <Compile Include="klipperCode\klippy\extras\quad_gantry_level.py" />
+    <Compile Include="klipperCode\klippy\extras\query_adc.py" />
+    <Compile Include="klipperCode\klippy\extras\query_endstops.py" />
+    <Compile Include="klipperCode\klippy\extras\replicape.py" />
+    <Compile Include="klipperCode\klippy\extras\resonance_tester.py" />
+    <Compile Include="klipperCode\klippy\extras\respond.py" />
+    <Compile Include="klipperCode\klippy\extras\safe_z_home.py" />
+    <Compile Include="klipperCode\klippy\extras\samd_sercom.py" />
+    <Compile Include="klipperCode\klippy\extras\save_variables.py" />
+    <Compile Include="klipperCode\klippy\extras\screws_tilt_adjust.py" />
+    <Compile Include="klipperCode\klippy\extras\sdcard_loop.py" />
+    <Compile Include="klipperCode\klippy\extras\servo.py" />
+    <Compile Include="klipperCode\klippy\extras\shaper_calibrate.py" />
+    <Compile Include="klipperCode\klippy\extras\shaper_defs.py" />
+    <Compile Include="klipperCode\klippy\extras\skew_correction.py" />
+    <Compile Include="klipperCode\klippy\extras\smart_effector.py" />
+    <Compile Include="klipperCode\klippy\extras\spi_temperature.py" />
+    <Compile Include="klipperCode\klippy\extras\static_digital_output.py" />
+    <Compile Include="klipperCode\klippy\extras\statistics.py" />
+    <Compile Include="klipperCode\klippy\extras\stepper_enable.py" />
+    <Compile Include="klipperCode\klippy\extras\sx1509.py" />
+    <Compile Include="klipperCode\klippy\extras\temperature_combined.py" />
+    <Compile Include="klipperCode\klippy\extras\temperature_fan.py" />
+    <Compile Include="klipperCode\klippy\extras\temperature_host.py" />
+    <Compile Include="klipperCode\klippy\extras\temperature_mcu.py" />
+    <Compile Include="klipperCode\klippy\extras\temperature_sensor.py" />
+    <Compile Include="klipperCode\klippy\extras\thermistor.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc2130.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc2208.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc2209.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc2240.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc2660.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc5160.py" />
+    <Compile Include="klipperCode\klippy\extras\tmc_uart.py" />
+    <Compile Include="klipperCode\klippy\extras\tsl1401cl_filament_width_sensor.py" />
+    <Compile Include="klipperCode\klippy\extras\tuning_tower.py" />
+    <Compile Include="klipperCode\klippy\extras\verify_heater.py" />
+    <Compile Include="klipperCode\klippy\extras\virtual_sdcard.py" />
+    <Compile Include="klipperCode\klippy\extras\z_thermal_adjust.py" />
+    <Compile Include="klipperCode\klippy\extras\z_tilt.py" />
+    <Compile Include="klipperCode\klippy\extras\__init__.py" />
+    <Compile Include="klipperCode\klippy\gcode.py" />
+    <Compile Include="klipperCode\klippy\kinematics\cartesian.py" />
+    <Compile Include="klipperCode\klippy\kinematics\corexy.py" />
+    <Compile Include="klipperCode\klippy\kinematics\corexz.py" />
+    <Compile Include="klipperCode\klippy\kinematics\delta.py" />
+    <Compile Include="klipperCode\klippy\kinematics\deltesian.py" />
+    <Compile Include="klipperCode\klippy\kinematics\extruder.py" />
+    <Compile Include="klipperCode\klippy\kinematics\hybrid_corexy.py" />
+    <Compile Include="klipperCode\klippy\kinematics\hybrid_corexz.py" />
+    <Compile Include="klipperCode\klippy\kinematics\idex_modes.py" />
+    <Compile Include="klipperCode\klippy\kinematics\none.py" />
+    <Compile Include="klipperCode\klippy\kinematics\polar.py" />
+    <Compile Include="klipperCode\klippy\kinematics\rotary_delta.py" />
+    <Compile Include="klipperCode\klippy\kinematics\winch.py" />
+    <Compile Include="klipperCode\klippy\kinematics\__init__.py" />
+    <Compile Include="klipperCode\klippy\klippy.py" />
+    <Compile Include="klipperCode\klippy\mathutil.py" />
+    <Compile Include="klipperCode\klippy\mcu.py" />
+    <Compile Include="klipperCode\klippy\msgproto.py" />
+    <Compile Include="klipperCode\klippy\parsedump.py" />
+    <Compile Include="klipperCode\klippy\pins.py" />
+    <Compile Include="klipperCode\klippy\queuelogger.py" />
+    <Compile Include="klipperCode\klippy\reactor.py" />
+    <Compile Include="klipperCode\klippy\serialhdl.py" />
+    <Compile Include="klipperCode\klippy\stepper.py" />
+    <Compile Include="klipperCode\klippy\toolhead.py" />
+    <Compile Include="klipperCode\klippy\util.py" />
+    <Compile Include="klipperCode\klippy\webhooks.py" />
+    <Compile Include="Parrafritor.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Info\" />
+    <Folder Include="klipperCode\" />
+    <Folder Include="klipperCode\klippy\" />
+    <Folder Include="klipperCode\klippy\chelper\" />
+    <Folder Include="klipperCode\klippy\extras\" />
+    <Folder Include="klipperCode\klippy\extras\display\" />
+    <Folder Include="klipperCode\klippy\kinematics\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="controller.cfg" />
+    <Content Include="Info\BIGTREETECH MANTA M8P V1.1 PinOut.png" />
+    <Content Include="klipperCode\generic-bigtreetech-manta-m8p-v1.1.cfg" />
+    <Content Include="Info\M8P-connect.png" />
+    <Content Include="klipperCode\klippy\chelper\compiler.h" />
+    <Content Include="klipperCode\klippy\chelper\itersolve.c" />
+    <Content Include="klipperCode\klippy\chelper\itersolve.h" />
+    <Content Include="klipperCode\klippy\chelper\kin_cartesian.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_corexy.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_corexz.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_delta.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_deltesian.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_extruder.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_idex.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_polar.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_rotary_delta.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_shaper.c" />
+    <Content Include="klipperCode\klippy\chelper\kin_winch.c" />
+    <Content Include="klipperCode\klippy\chelper\list.h" />
+    <Content Include="klipperCode\klippy\chelper\msgblock.c" />
+    <Content Include="klipperCode\klippy\chelper\msgblock.h" />
+    <Content Include="klipperCode\klippy\chelper\pollreactor.c" />
+    <Content Include="klipperCode\klippy\chelper\pollreactor.h" />
+    <Content Include="klipperCode\klippy\chelper\pyhelper.c" />
+    <Content Include="klipperCode\klippy\chelper\pyhelper.h" />
+    <Content Include="klipperCode\klippy\chelper\serialqueue.c" />
+    <Content Include="klipperCode\klippy\chelper\serialqueue.h" />
+    <Content Include="klipperCode\klippy\chelper\stepcompress.c" />
+    <Content Include="klipperCode\klippy\chelper\stepcompress.h" />
+    <Content Include="klipperCode\klippy\chelper\trapq.c" />
+    <Content Include="klipperCode\klippy\chelper\trapq.h" />
+    <Content Include="klipperCode\klippy\chelper\trdispatch.c" />
+    <Content Include="klipperCode\klippy\extras\display\display.cfg" />
+    <Content Include="klipperCode\klippy\extras\display\menu.cfg" />
+    <Content Include="klipperCode\klippy\extras\temperature_sensors.cfg" />
+    <Content Include="steppers.cfg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
